@@ -28,7 +28,7 @@ import tog.is.util.Util;
  *
  */
 
-@Path("/{a: USER|user}")
+@Path("/{a: user-uploads|user-uploads}")
 public class UserImageService { 
 	
 	@PostConstruct
